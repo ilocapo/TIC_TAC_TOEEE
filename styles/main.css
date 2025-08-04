@@ -1,10 +1,12 @@
 body {
+    font-family: Tahoma, sans-serif;
     background-color: rgb(255, 251, 247);
     border: 3px solid rgb(240, 160, 55);
     border-radius: 10px;
     padding: 40px;
     margin: 10px;
     font-family: '
+
 }
 
 header {
@@ -19,6 +21,14 @@ header {
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.082);
 }
 
+#start-button{
+    background-color: antiquewhite;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.082);
+
+}
 main {
     display: flex;
     flex-direction: column;
@@ -28,6 +38,31 @@ main {
     padding: 20px;
     margin: 5px;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.082);
+}
+
+.game-board {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    gap: 10px;
+    grid-template-rows: 200px 200px 200px;
+}
+
+#tuile{
+    font-size: 30px;
+    font-weight: 50;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.103);
+    transition: 0.5s;
+    margin: 2px;
+    
+}
+
+#tuile:hover {
+    transform: scale(108%);
 }
 
 footer {
@@ -41,6 +76,7 @@ footer {
     color: rgb(95, 54, 1);
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.082);
 }
+
 #game-board {
     display: flex;
     justify-content: center;
