@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIC-TAC-AI</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <header>
+        <h1>TIC-TAC-AI</h1>
+        <p>
+            The rules are simple:
+            <br>
+            1. You play against an AI bot.
+            <br>
+            2. The first player to align three symbols (X or O) in a row, column, or diagonal wins.
+            <br>
+            3. If all squares are filled without a winner, the game ends in a draw.
+            <br>            4. The AI bot uses a minimax algorithm to make optimal moves.
+            <br>
+            Ready to play? 
+        </p>
+        <button id="start-button">Let's start!</button>
+    </header>
+
+    <main>
+        <div id="game-board">
+            <canvas width="300" height="300">
+                <p>Your browser does not support the canvas element.</p>
+            </canvas>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 TIC-TAC-AI. All rights reserved.</p>
+        <p>Created by CAPO Ilona</p>
+        <p>Contact: <a href="mailto:ilona.capo@example.com">ilona.capo@example.com</a></p>
+        <p>GitHub: <a href="https://github.com/yourusername">yourusername</a></p>
+        <p>Portfolio: <a href="https://yourportfolio.com">yourportfolio.com</a></p>
+    </footer>
+    <script src="scripts/game.js"></script>
+</body>
+</html>
